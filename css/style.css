@@ -1,0 +1,81 @@
+/* 
+Color Reference from sample-page.png
+Blue-green color: #266150
+Page Color: #FDF8F5
+Text Color: #4F4847
+Contact Form Background Color: #E8CEBF
+
+
+*/
+html {
+    background-color: #FDF8F5;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+nav {
+    background-color: #266150;
+    padding: 20px;
+    margin: auto;
+    border-bottom: 10px solid #DDAF94;
+    position: sticky;
+}
+
+.navbar a {
+    color: #FDF8F5;
+    text-decoration: none;
+    float: right;
+    margin: -10px 20px 20px 20px;
+    /* There is probably a better way to do this than select all the elements, but I haven't figured out the syntax yet. */
+    transition: all 0.5s;
+}
+a:hover {
+    background-color: #4cbc9c;
+    color:#4F4847;
+    border-radius: 4px;
+}
+
+h1, h2{
+    text-align: center;
+    color:#4F4847
+}
+
+img {
+    display: block;
+    margin: auto;
+
+}
+figcaption {
+    text-align: center;
+    color:#4F4847;
+}
+
+form{
+    border-top: 5px solid #DDAF94;
+    background-color: #E8CEBF;
+    text-align: center;
+    padding: 20px;
+}
+
+#input {
+    border: 5px solid #DDAF94;
+    border-radius: 10px;
+}
+
+input:hover {
+    transition: all 0.5s;
+    background-color: #c9b4a7;
+    
+}
+
+button {
+    background-color: #4F4847;
+    color: #FDF8F5;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    text-align: center;
+    background-color:#266150;
+    color:#FDF8F5;
+    border-bottom: 10px solid #4F4847;
+}
